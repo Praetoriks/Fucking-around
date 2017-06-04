@@ -37,7 +37,7 @@ public abstract class Entity : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		doLogic();
 	}
 	
 	public abstract void doLogic();

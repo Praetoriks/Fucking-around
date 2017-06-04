@@ -1,0 +1,283 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Missi",
+				"MissingPermissionsException"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "git",
+		"selected_items":
+		[
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instlal",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"GIT",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Install Package Control"
+			]
+		],
+		"width": 1216.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/Nick/Documents/programming/echo_f/Assets/scripts/Player.cs",
+		"/F/Nick/Documents/programming/echo_f/Assets/scripts/Entity.cs",
+		"/F/Nick/Documents/programming/echo_f/Assets/scripts/Mob.cs",
+		"/F/Nick/Documents/programming/echo_f/Assets/scripts/World.cs",
+		"/F/Nick/Downloads/dejavu-fonts-ttf-2.37/README.md",
+		"/F/Nick/Documents/programming/echo_f/Assets/Entity.cs",
+		"/F/Nick/Documents/programming/game_framework/Entity.java",
+		"/D/crap/games/Twine/SugarDaddy.12.rc1.html",
+		"/F/Nick/Documents/programming/3d fps/Assets/scripts/FirstPersonController.cs",
+		"/F/Nick/Documents/programming/dnd poc/src/net/samurai/shit/Main.java",
+		"/F/Nick/Documents/programming/dnd poc/src/net/samurai/shit/HelloAction.java",
+		"/F/Nick/Documents/programming/dnd poc/src/net/samurai/shit/EchoAction.java",
+		"/F/Nick/Documents/programming/dnd poc/src/net/samurai/shit/TimeAction.java",
+		"/F/Nick/Documents/programming/unity/SnakeGame/Assets/FoodSpawner.cs",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA7F505F/settings.ini",
+		"/F/Nick/Documents/programming/unity/SnakeGame/Assets/Player.cs",
+		"/F/Nick/Documents/programming/dnd poc/src/net/samurai/shit/ActionInterface.java",
+		"/F/Nick/Documents/programming/dnd poc/actions.config",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA786A7B/CommandEvent.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA7F42E4/RegionParser.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA7F10B4/ShopContentParser.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA721CC3/Parser.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA74FC72/ParserLookup.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA7B238D/SettingsLoader.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA7BB4D9/OsirisPacketDecoder.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA713A47/PacketReader.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA780616/PacketWriter.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA763AC6/ByteForm.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA722555/EventWriter.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA7CE284/OsirisUpstreamHandler.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA788CFA/LoggerProxyHandler.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA79C01B/EasyProxy.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA782ACB/LogLevel.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA705242/LoggerProxy.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOCA708585/todo.txt",
+		"/C/Users/Nick/AppData/Local/Temp/7zO4F0B729A/EasyProxy.java",
+		"/F/Nick/Documents/programming/discordbot/src/main/java/net/samurai/discord/MessageListener.java",
+		"/F/Nick/Documents/programming/discordbot/src/main/java/net/samurai/discord/ListManager.java",
+		"/F/Nick/Documents/programming/discordbot/src/main/java/net/samurai/discord/EchoBot.java",
+		"/F/Nick/Documents/programming/dnd poc/src/Main.java",
+		"/F/Nick/Documents/programming/dnd poc/src/DefinitionLoader.java",
+		"/F/Nick/Documents/programming/dnd poc/def/CharacterActionsDefinitions.java",
+		"/F/Nick/Documents/programming/dnd poc/def/ActionDefinitionInterface.java",
+		"/F/Nick/Documents/programming/dnd poc/def/actions.def",
+		"/C/Users/Nick/AppData/Local/TslGame/Saved/Config/WindowsNoEditor/GameUserSettings.ini",
+		"/C/Users/Nick/AppData/Local/TslGame/Saved/Config/WindowsNoEditor/Game.ini",
+		"/F/Nick/Downloads/Torrents/NieR.Automata.Day.One.Edition.SteamRip-Fisher/NieRAutomata/config.xml",
+		"/F/Nick/Downloads/FC 0.10.0 all art/FC/Free Cities v 0.10.0.html",
+		"/C/Games/Grand Theft Auto V/ent-config.xml",
+		"/F/Nick/Documents/programming/discordbot/settings.ini",
+		"/F/Nick/Documents/programming/discordbot/src/main/java/net/samurai/discord/DiscordBot.java",
+		"/F/Nick/Documents/programming/discordbot/src/main/java/net/samurai/discord/Bootstrap.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zOC7453D03/CommandEvent.java",
+		"/C/Users/Nick/AppData/Local/Temp/7zO0CB99255/SettingsLoader.java",
+		"/C/Games/Grand Theft Auto V/Trainers/Simple Trainer/readme.docx",
+		"/F/Nick/Documents/programming/discordbot/build.gradle",
+		"/F/Games/Postal 2 Share The Pain/System/Postal2.ini",
+		"/F/Games/Postal 2 Share The Pain/System/User.ini",
+		"/F/Nick/Documents/programming/java_echo_bot/discordbot/src/main/java/net/samurai/discord/DiscordBot.java",
+		"/F/Nick/Documents/programming/java_echo_bot/discordbot/pom.xml",
+		"/F/Nick/Documents/programming/java_echo_bot/discordbot/src/main/java/net/samurai/discord/ListManager.java",
+		"/F/Nick/Documents/programming/java_echo_bot/discordbot/src/main/java/net/samurai/discord/MessageListener.java",
+		"/F/Nick/Documents/programming/java_echo_bot/discordbot/src/main/java/net/samurai/discord/Bootstrap.java",
+		"/D/misc/programming/other/vote.pl",
+		"/C/Users/Nick/AppData/Local/Temp/7zO0CBB50C4/ItemScanner.java",
+		"/F/Nick/Documents/programming/java_echo_bot/discordbot/src/main/java/net/samurai/discord/App.java",
+		"/F/Nick/Documents/programming/java_echo_bot/pom.xml",
+		"/F/Nick/Documents/rubyshit/EchoBot.rb",
+		"/F/Games/Steam/steamapps/common/Sven Co-op/svencoop/server.cfg",
+		"/F/Nick/Documents/99 Bottles of Beer (Unity)/Assets/BottlesOfBeer.cs"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"var.cash = 23",
+			"var.cash",
+			"cash",
+			"23",
+			"fov",
+			"upgrade",
+			"$cash =",
+			"you have",
+			"fov",
+			"bufferedwriter",
+			"dump",
+			"substring",
+			"list",
+			"getmessage",
+			"reader",
+			"bufferedread",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "echo_f.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
