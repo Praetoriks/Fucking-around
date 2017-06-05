@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fucking-around", "Assembly-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fucking-around", "Assembly-CSharp-Editor-firstpass.csproj", "{175D86EB-6B4B-E381-5063-77030B97349B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fucking-around", "Assembly-CSharp-Editor.csproj", "{B888218C-A124-2F9B-4F28-368C4E6396D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{175D86EB-6B4B-E381-5063-77030B97349B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{175D86EB-6B4B-E381-5063-77030B97349B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{175D86EB-6B4B-E381-5063-77030B97349B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B888218C-A124-2F9B-4F28-368C4E6396D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B888218C-A124-2F9B-4F28-368C4E6396D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B888218C-A124-2F9B-4F28-368C4E6396D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B888218C-A124-2F9B-4F28-368C4E6396D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
