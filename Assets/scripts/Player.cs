@@ -10,45 +10,25 @@ using UnityEngine;
 public class Player : Entity {
 
 	// XXX: Public variables show in the inspector.
-	public float speed = .5f;
-	public float jumpForce = 700f;
-	public Transform groundCheck;
+	public float speed = 2f;
+	public float jumpForce = 75f;
+	public Transform checkGround;
 	public LayerMask whatIsGround;
 
 	// XXX: Private variables do not.
 	private bool facingLeft = false;
 	private Rigidbody2D rigid2D;
 	private Animator anim;
-	private bool grounded = false;
+	private bool onGround = false;
 	private float groundRadius = 0.2f;
 
-	// XXX: Are constructor methods even fucking used in unity?
-	// When is this even initailized? Forced to use Start() function instead.
-	public Player(int id, string name) : base(id, name) { 
-		//rigid2D = GetComponent<Rigidbody>();
-		//anim = GetComponent<Animator>();
-	}
-
-	public void Start() {
+	public override void init() {
 		rigid2D = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
 	}
 
-	// Called whenever the fuck we want.
-	public override void doLogic() {
-		//doMovement(true);
-	}
+	public override void doUpdate() {
 
-	public void Update() {
-		if (grounded && (getAxes("Jump") > 0)) {
-			anim.SetBool("ground", false);
-			rigid2D.AddForce(new Vector2(0, jumpForce));
-		}
-	}
-
-	// XXX: Inhereted from MonoDevelop
-	public void FixedUpdate() {
-		doMovement(true);
 	}
 
 	/**
@@ -56,12 +36,16 @@ public class Player : Entity {
 	 * 
 	 * @param  {[type]} bool canMove       Wheather or not the player can move.
 	 */
-	private void doMovement(bool canMove) {
+	public override void doMovement(bool canMove) {
 		if (!canMove) return;
+		
+		if (onGround && (getAxes("Jump") > 0)) {
+			anim.SetBool("ground", false);
+			rigid2D.AddForce(new Vector2(0, jumpForce));
+		}
 
-		grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
-		anim.SetBool("ground", grounded);
-
+		onGround = Physics2D.OverlapCircle(checkGround.position, groundRadius, whatIsGround);
+		anim.SetBool("ground", onGround);
 		anim.SetFloat("vSpeed", rigid2D.velocity.y);
 
 		//float vert = getAxes("Vertical");

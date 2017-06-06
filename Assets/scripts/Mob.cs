@@ -9,11 +9,19 @@ using UnityEngine;
  */
 public class Mob : Entity {
 
-	public Mob(int id, string name) : base(id, name) {
+	public Mob() : base() {
+
 	}
 
-	// Called whenever the fuck we want.
-	public override void doLogic() {
+	public override void init() {
+
+	}
+
+	public override void doUpdate() {
+		
+	}
+
+	public override void doMovement(bool canMove) {
 
 	}
 }

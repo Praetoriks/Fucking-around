@@ -17,28 +17,26 @@ public abstract class Entity : MonoBehaviour {
 
 	public int Level { get; set; }
 
-	// Constructors
-	public Entity(int id) : this(id, "") { }
+	public Entity() : base() {
 
-	public Entity(int id, string name) : this(id, name, 0) { }
-
-	public Entity(int id, string name, int level) {
-		this.ID = id;
-		this.Name = name; 
-		this.Level = level;
 	}
 
-	// Inhereited
+	public void Update() {
+		doUpdate();
+	}
 
-	// Use this for initialization
-	void Start () {
-		
+	public abstract void doUpdate();
+
+	public void Start() {
+		init();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		doLogic();
+
+	public abstract void init();
+
+	public void FixedUpdate() {
+		doMovement(true);
 	}
-	
-	public abstract void doLogic();
+
+	public abstract void doMovement(bool canMove);
+
 }
