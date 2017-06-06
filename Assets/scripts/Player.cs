@@ -9,12 +9,18 @@ using UnityEngine;
  */
 public class Player : Entity {
 
+	// XXX: Public variables show in the inspector.
 	public float speed = .5f;
+	public float jumpForce = 700f;
+	public Transform groundCheck;
+	public LayerMask whatIsGround;
+
+	// XXX: Private variables do not.
 	private bool facingLeft = false;
 	private Rigidbody2D rigid2D;
 	private Animator anim;
-
-	//public int Health { get; set; }
+	private bool grounded = false;
+	private float groundRadius = 0.2f;
 
 	// XXX: Are constructor methods even fucking used in unity?
 	// When is this even initailized? Forced to use Start() function instead.
@@ -33,6 +39,18 @@ public class Player : Entity {
 		//doMovement(true);
 	}
 
+	public void Update() {
+		if (grounded && (getAxes("Jump") > 0)) {
+			anim.SetBool("ground", false);
+			rigid2D.AddForce(new Vector2(0, jumpForce));
+		}
+	}
+
+	// XXX: Inhereted from MonoDevelop
+	public void FixedUpdate() {
+		doMovement(true);
+	}
+
 	/**
 	 * Handle player movement.
 	 * 
@@ -40,6 +58,11 @@ public class Player : Entity {
 	 */
 	private void doMovement(bool canMove) {
 		if (!canMove) return;
+
+		grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
+		anim.SetBool("ground", grounded);
+
+		anim.SetFloat("vSpeed", rigid2D.velocity.y);
 
 		//float vert = getAxes("Vertical");
 		float rawHorizontal = getAxes("Horizontal") ;
@@ -64,9 +87,5 @@ public class Player : Entity {
 
 	private float getAxes(string axes) {
 		return Input.GetAxis(axes);
-	}
-
-	public void FixedUpdate() {
-		doMovement(true);
 	}
 }
